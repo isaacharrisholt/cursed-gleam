@@ -21,4 +21,4 @@ The module names are listed below.
 
 ## Contributing
 
-If you see any curseg Gleam out in the wild, please open a PR!
+If you see any cursed Gleam out in the wild, please open a PR!
