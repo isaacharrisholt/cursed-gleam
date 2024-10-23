@@ -16,11 +16,14 @@ gleam run circular
 
 The module names are listed below.
 
-| Module                              | Description                                | Author                                                 |
-| ----------------------------------- | ------------------------------------------ | ------------------------------------------------------ |
-| [`aliases`](./src/cursed/aliases)   | Alias nightmares                           | [@isaacharrisholt](https://github.com/isaacharrisholt) |
-| [`circular`](./src/cursed/circular) | Circular imports                           | [@joshi-monster](https://github.com/joshi-monster)     |
-| [`if`](./src/cursed/if_statements)  | Run side effects in an `if`-like statement | [@MoeDevelops](https://github.com/MoeDevelops)         |
+| Module                                                    | Description                                | Author                                                   |
+| --------------------------------------------------------- | ------------------------------------------ | -------------------------------------------------------- |
+| [`aliases`](./src/cursed/aliases)                         | Alias nightmares                           | [@isaacharrisholt](https://github.com/isaacharrisholt)   |
+| [`circular`](./src/cursed/circular)                       | Circular imports                           | [@joshi-monster](https://github.com/joshi-monster)       |
+| [`if`](./src/cursed/if_statements)                        | Run side effects in an `if`-like statement | [@MoeDevelops](https://github.com/MoeDevelops)           |
+| [`list_comprehensions`](./src/cursed/list_comprehensions) | List comprehensions                        | [@tynanbe](https://github.com/tynanbe)                   |
+| [`use`](./src/cursed/use_crimes)                          | A collection of cursed uses of `use`       | [@giacomocavalieri](https://github.com/giacomocavalieri) |
+| [`case_piping`](./src/cursed/case_piping)                 | Turns out you _can_ pipe into `case`       | [@TanklesXL](https://github.com/TanklesXL)               |
 
 ## Contributing
 
