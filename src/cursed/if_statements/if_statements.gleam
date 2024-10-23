@@ -11,6 +11,11 @@ pub fn run(password: String) {
       io.println("Password is long enough")
       True
     }
+    || {
+      // This will only print if the provided password is not long enough
+      io.println("Password is not long enough")
+      False
+    }
 
   Nil
 }
