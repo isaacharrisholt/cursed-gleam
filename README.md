@@ -16,9 +16,12 @@ gleam run circular
 
 The module names are listed below.
 
-- [`circular`](./src/cursed/circular) - Circular imports - Thanks @joshi-monster!
-- [`aliases`](./src/cursed/aliases) - Alias nightmares
+| Module                              | Description                                | Author                                                 |
+| ----------------------------------- | ------------------------------------------ | ------------------------------------------------------ |
+| [`aliases`](./src/cursed/aliases)   | Alias nightmares                           | [@isaacharrisholt](https://github.com/isaacharrisholt) |
+| [`circular`](./src/cursed/circular) | Circular imports                           | [@joshi-monster](https://github.com/joshi-monster)     |
+| [`if`](./src/cursed/if_statements)  | Run side effects in an `if`-like statement | [@MoeDevelops](https://github.com/MoeDevelops)         |
 
 ## Contributing
 
-If you see any cursed Gleam out in the wild, please open a PR!
+If you see any cursed Gleam out in the wild, please open an issue or PR!
