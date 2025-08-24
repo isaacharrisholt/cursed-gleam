@@ -2,6 +2,7 @@ import argv
 import cursed/aliases/aliases
 import cursed/case_piping/case_piping
 import cursed/circular/wibble
+import cursed/if_else/if_else
 import cursed/if_statements/if_statements
 import cursed/list_comprehensions/list_comprehensions
 import cursed/use_crimes/use_crimes
@@ -15,6 +16,8 @@ pub fn main() {
     ["aliases"] -> aliases.run()
     ["if"] -> io.println("Usage: if <password>")
     ["if", password] -> if_statements.run(password)
+    ["if_else"] -> io.println("Usage: if <guess:Integer>")
+    ["if_else", guess] -> if_else.run(guess)
     ["list_comprehensions"] -> list_comprehensions.run()
     ["use"] -> use_crimes.run()
     ["case_piping"] -> case_piping.run("")
